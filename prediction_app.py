@@ -90,7 +90,7 @@ if st.button('Prediction Result'):
 st.success(heart_diagnosis)
 
 #Explore Page
-df = pd.read_csv("C:/VS Code/VS code for DAA assigmnent\heart.csv",header = 0,sep=';')
+df = pd.read_csv("heart.csv",header = 0,sep=';')
 
 st.title('Graphs')
 # page title
