@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 import seaborn as sns
 import pandas as pd
 
-loaded_model = pickle.load(open('C:/VS Code\VS code for DAA assigmnent/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 with st.sidebar:
     
