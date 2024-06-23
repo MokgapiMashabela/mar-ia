@@ -36,7 +36,7 @@ cursor.execute(data)
 print("Database has been created")
 
 #Load data file
-df = pd.read_csv("C:/VS Code/VS code for DAA assigmnent\heart.csv",header = 0,sep=';')
+df = pd.read_csv("heart.csv",header = 0,sep=';')
 
 print(df.head(5))
 
