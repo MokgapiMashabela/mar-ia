@@ -95,7 +95,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 import seaborn as sns
 
-df= pd.read_csv("C:/VS Code/VS code for DAA assigmnent\heart.csv",header = 0,sep=';')
+df= pd.read_csv("heart.csv",header = 0,sep=';')
 print(df.info())
 print(df.describe())
 
